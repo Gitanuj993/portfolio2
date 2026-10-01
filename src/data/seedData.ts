@@ -1,7 +1,7 @@
 import { BlogPost, Experience, Project, SkillCategory, SiteSettings } from '../types';
 
 export const INITIAL_SETTINGS: SiteSettings = {
-  name: 'Julian Thorne',
+  name: 'Anuj Tanwar',
   role: 'Software Engineer',
   headline: 'Building reliable software, exploring intelligent systems, and solving meaningful problems.',
   subheadline: 'Computer science graduate focused on distributed systems, backend architectures, and high-throughput developer tooling.',
@@ -14,14 +14,14 @@ export const INITIAL_SETTINGS: SiteSettings = {
   currentlyBuilding: 'High-throughput async event ingestion pipeline with zero-copy deserialization',
   currentlyLearning: 'Formal verification (TLA+) and lock-free concurrency primitives',
   currentlyExploring: 'Vector indexing algorithms (HNSW vs. ScaNN) and custom memory allocators',
-  email: 'julian.thorne.dev@gmail.com',
-  githubUrl: 'https://github.com',
-  linkedinUrl: 'https://linkedin.com',
-  xUrl: 'https://x.com',
+  email: 'anujtawar42@gmail.com',
+  githubUrl: 'https://github.com/gitanuj993',
+  linkedinUrl: 'https://linkedin.com/in/gitanuj993',
+  xUrl: 'https://x.com/gitanuj993',
   resumeUrl: '#',
-  location: 'San Francisco, CA / Remote',
-  seoTitle: 'Julian Thorne — Software Engineer & Systems Builder',
-  seoDescription: 'Personal portfolio, technical publication, distributed systems engineering, and project showcase.',
+  location: 'INDORE, INDIA / Remote',
+  seoTitle: 'AT — Software Engineerin & Researcher',
+  seoDescription: 'Personal portfolio, engineering & research, and project showcase.',
   statusTicker: 'Currently building · Learning · Experimenting'
 };
 
@@ -199,9 +199,8 @@ export const INITIAL_SKILLS: SkillCategory[] = [
     category: 'Languages',
     description: 'Core languages used daily for systems programming, data pipelines, and production services.',
     items: [
-      { name: 'Python', note: 'FastAPI, Asyncio, Pybind11' },
-      { name: 'C++', note: 'C++17/20, STL, SIMD, POSIX' },
-      { name: 'Go', note: 'Concurrency, gRPC, Goroutines' },
+      { name: 'Python', note: 'FastAPI, ' },
+      { name: 'C++', note: 'C++17/20, STL, ' },
       { name: 'TypeScript', note: 'Strict typing, Node, React' },
       { name: 'SQL', note: 'Query optimization, indexing, CTEs' },
       { name: 'Bash', note: 'Linux automation, scripting' }
@@ -213,10 +212,10 @@ export const INITIAL_SKILLS: SkillCategory[] = [
     items: [
       { name: 'FastAPI', note: 'Async REST APIs, Pydantic' },
       { name: 'PostgreSQL', note: 'Partitioning, connection pooling' },
-      { name: 'Redis', note: 'Caching, pub/sub, rate limiters' },
-      { name: 'gRPC & Protocol Buffers', note: 'Inter-service RPC' },
-      { name: 'Distributed Consensus', note: 'Raft protocol, quorums' },
-      { name: 'Microservices Architecture', note: 'Idempotency, circuit breakers' }
+      // { name: 'Redis', note: 'Caching, pub/sub, rate limiters' },
+      // { name: 'gRPC & Protocol Buffers', note: 'Inter-service RPC' },
+      // { name: 'Distributed Consensus', note: 'Raft protocol, quorums' },
+      // { name: 'Microservices Architecture', note: 'Idempotency, circuit breakers' }
     ]
   },
   {
@@ -236,9 +235,9 @@ export const INITIAL_SKILLS: SkillCategory[] = [
     items: [
       { name: 'NumPy & Pandas', note: 'Vectorized numerical pipelines' },
       { name: 'Scikit-learn', note: 'Classical statistical models' },
-      { name: 'Apache Arrow', note: 'Columnar memory formats' },
-      { name: 'Vector Databases', note: 'HNSW, embeddings indexing' },
-      { name: 'Statistical Testing', note: 'Bayesian change-point, quantiles' }
+      // { name: 'Apache Arrow', note: 'Columnar memory formats' },
+      // { name: 'Vector Databases', note: 'HNSW, embeddings indexing' },
+      // { name: 'Statistical Testing', note: 'Bayesian change-point, quantiles' }
     ]
   },
   {
@@ -248,8 +247,8 @@ export const INITIAL_SKILLS: SkillCategory[] = [
       { name: 'Docker & Compose', note: 'Reproducible multi-stage builds' },
       { name: 'Git & GitHub Actions', note: 'Automated CI/CD pipelines' },
       { name: 'Linux / Unix', note: 'Kernel primitives, system calls' },
-      { name: 'Prometheus & Grafana', note: 'Metrics collection, alerts' },
-      { name: 'Valgrind & ASan', note: 'Memory safety, leak diagnostics' }
+      // { name: 'Prometheus & Grafana', note: 'Metrics collection, alerts' },
+      // { name: 'Valgrind & ASan', note: 'Memory safety, leak diagnostics' }
     ]
   }
 ];
@@ -257,7 +256,7 @@ export const INITIAL_SKILLS: SkillCategory[] = [
 export const INITIAL_POSTS: BlogPost[] = [
   {
     id: 'post-1',
-    title: 'Architecting for P99: Tackling Tail Latency in Distributed Systems',
+    title: 'Architecting for P99: Tackling Tail Latency in Distributed Systems (Test)',
     slug: 'architecting-predictable-latency-microservices',
     excerpt: 'Average latency is a vanity metric. Here is why the 99th percentile matters, why connection pools starve during sudden spikes, and how to design backpressure into service boundaries.',
     coverImage: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80',
@@ -378,7 +377,7 @@ In our internal benchmarks with simulated network jitter:
   },
   {
     id: 'post-2',
-    title: 'Building a Raft Consensus Engine From Scratch: Lessons in Edge Cases',
+    title: 'Building a Raft Consensus Engine From Scratch: Lessons in Edge Cases (test)',
     slug: 'building-raft-consensus-from-first-principles',
     excerpt: 'The Raft paper is famously understandable, until you actually attempt to implement split-brain recovery, log truncation, and snapshotting under real network packet drops.',
     coverImage: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80',
@@ -485,7 +484,7 @@ Writing a consensus algorithm is one of the most humbling exercises in software 
   },
   {
     id: 'post-3',
-    title: 'Scaling FastAPI with Async PostgreSQL: Beyond the Default Connection Pool',
+    title: 'Scaling FastAPI with Async PostgreSQL: Beyond the Default Connection Pool (test)',
     slug: 'python-fastapi-database-concurrency',
     excerpt: 'FastAPI async route handlers can handle thousands of concurrent requests—until your relational database pool gives up. Here is how to configure SQLAlchemy and asyncpg for real production workloads.',
     coverImage: 'https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=1200&q=80',
@@ -568,7 +567,7 @@ Engineering backend systems is about aligning software structure with hardware l
   },
   {
     id: 'post-4',
-    title: 'Notes on Rust Borrow Checking for Systems Programmers',
+    title: 'Notes on Rust Borrow Checking for Systems Programmers (Test)',
     slug: 'learning-rust-for-cpp-engineers',
     excerpt: 'Coming from modern C++, the Rust borrow checker feels like a tyrannical compiler until you realize it is formally enforcing RAII invariants you were already trying to keep in your head.',
     coverImage: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80',
